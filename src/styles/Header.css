@@ -1,0 +1,279 @@
+@import url("./Colors.css");
+
+.headerContainer {
+  width: 100%;
+  height: 750px;
+  /* background-color: #333; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.headerInner {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerLeft {
+  /* background-color: #aaa; */
+  width: 60%;
+  height: 600px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.headerLeftInner {
+  /* background-color: #666; */
+  display: flex;
+  flex-direction: column;
+  height: 430px;
+  justify-content: space-between;
+}
+
+.headerRight {
+  /* background-color: #999; */
+  width: 40%;
+  height: 750px;
+  display: flex;
+  align-items: center;
+}
+
+.headerRightInner {
+  height: 750px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.headerBannerText {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: var(--text-color);
+}
+
+/* .headerRightInner {
+  background-color: #666; 
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+} 
+*/
+
+/* .headerSubtitle {
+  background-color: #444;
+} */
+
+.headerText {
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  justify-content: space-between;
+  /* background: #333; */
+  width: 700px;
+}
+
+.headerCTAB {
+  padding: 14px 30px;
+  border-radius: 30px;
+  color: var(--text-color);
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 200ms linear;
+  border: 2px solid;
+  border-color: #b8b8b8;
+  font-family: "Montserrat", sans-serif;
+}
+
+.headerCTAB:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  transition: all 200ms linear;
+}
+
+.headerColored {
+  color: var(--primary-color);
+}
+
+.headerPhoto {
+  height: 720px;
+}
+
+@media (max-width: 1638px) {
+  .headerInner {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1338px) {
+  .headerBannerText {
+    font-size: 48px;
+  }
+  .headerText {
+    width: 520px;
+    height: 240px;
+  }
+  .headerLeft {
+    justify-content: center;
+  }
+
+  .headerLeftInner {
+    height: 320px;
+  }
+  .headerSubtitleText {
+    font-size: 14px;
+  }
+  .headerRightInner {
+    height: 660px;
+  }
+  .headerRight {
+    height: 660px;
+  }
+  .headerPhoto {
+    height: 630px;
+  }
+  .headerCTAB {
+    padding: 12px 24px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1138px) {
+  .headerBannerText {
+    font-size: 40px;
+  }
+  .headerText {
+    width: 450px;
+    height: 220px;
+  }
+  .headerLeft {
+    justify-content: center;
+  }
+
+  .headerLeftInner {
+    height: 290px;
+  }
+  .headerSubtitleText {
+    font-size: 14px;
+  }
+  .headerRightInner {
+    height: 600px;
+  }
+  .headerRight {
+    height: 600px;
+  }
+  .headerPhoto {
+    height: 550px;
+  }
+  .headerCTAB {
+    padding: 12px 24px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 968px) {
+  .headerInner {
+    display: flex;
+    justify-content: center;
+  }
+  .headerContainer {
+    height: 650px;
+  }
+  .headerBannerText {
+    font-size: 48px;
+  }
+  .headerText {
+    width: 550px;
+    height: 250px;
+  }
+  .headerLeft {
+    width: 700px;
+    justify-content: center;
+  }
+
+  .headerLeftInner {
+    height: 340px;
+  }
+  .headerSubtitleText {
+    font-size: 14px;
+  }
+  .headerRight {
+    display: none;
+  }
+  .headerCTAB {
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 668px) {
+  .headerLeft {
+    width: 600px;
+    justify-content: center;
+  }
+  .headerInner {
+    display: flex;
+    justify-content: center;
+  }
+  .headerContainer {
+    height: 650px;
+  }
+  .headerBannerText {
+    font-size: 40px;
+  }
+  .headerText {
+    width: 440px;
+    height: 210px;
+  }
+
+  .headerLeftInner {
+    height: 290px;
+  }
+  .headerSubtitleText {
+    font-size: 12px;
+  }
+  .headerCTAB {
+    padding: 12px 24px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 468px) {
+  .headerLeft {
+    width: 600px;
+    justify-content: center;
+  }
+  .headerInner {
+    display: flex;
+    justify-content: center;
+  }
+  .headerContainer {
+    height: 650px;
+  }
+  .headerBannerText {
+    font-size: 32px;
+  }
+  .headerText {
+    width: 330px;
+    height: 190px;
+  }
+
+  .headerLeftInner {
+    height: 250px;
+  }
+  .headerSubtitleText {
+    font-size: 12px;
+  }
+  .headerCTAB {
+    padding: 10px 20px;
+    font-size: 11px;
+  }
+}

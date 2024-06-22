@@ -1,0 +1,21 @@
+.aboutContainer {
+  background-color: #cfd1d4;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutInner {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutTextArea {
+  background-color: #333;
+  height: 100%;
+  width: 100%;
+}
